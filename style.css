@@ -77,3 +77,20 @@ transform:  perspective(600px) rotateY(0deg);
     background: #eb325a;
     color: #fff;
 }
+@media only screen and (max-width: 600px) {
+    .text{
+        font-size: 14px;
+       margin-left: 80px;
+       margin-right: 20px;
+       text-align: center;
+    }
+    .text-1{
+        font-size: 18px;
+        padding-left: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .w3-button{
+        margin-left: 50px;
+    }
+  }
